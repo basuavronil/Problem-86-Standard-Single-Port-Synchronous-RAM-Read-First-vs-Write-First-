@@ -39,3 +39,11 @@ When `Write-First` is enabled during a write operation (`we = 1`):
 | **Write-First Write** | `we = 1`, `mode = WRITE_FIRST` | New Data (`din`) | **New Data** (`din`) |
 
 ---
+
+## Output 
+### Waveform 
+<img width="956" height="263" alt="image" src="https://github.com/user-attachments/assets/63e9a719-73cf-4da2-a77e-248d227be10f" />
+
+### Simulation Terminal
+<img width="806" height="230" alt="image" src="https://github.com/user-attachments/assets/b89bc3c2-9006-4933-bda7-ab6f66b31964" />
+
