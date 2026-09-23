@@ -67,7 +67,6 @@ module tb_single_port_ram;
         // --- STEP 2: Normal Read from Address 0x05 ---
         $display("\n--- Step 2: Normal Read from address 0x05 ---");
         @(posedge clk);
-        wr_en <= 1 me;
         wr_en <= 1'b0;
         rd_en <= 1'b1;
 
@@ -93,7 +92,6 @@ module tb_single_port_ram;
         $display("\n--- Step 5: Final Read from 0x05 (Should be 0xCC) ---");
         @(posedge clk);
         wr_en <= 1'b0;
-        rd_en <= 1 me;
         rd_en <= 1'b1;
 
         // Finish simulation
